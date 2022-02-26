@@ -1,1 +1,12 @@
+Creare the directory /root/repodman
+Put on it the script repodman.sh
+Execute ./repodman.sh
+1- registre
+2- initialization
+3- update
 
+
+ "-h, --help                Show brief help"
+ "-i, --initialization      Initialize enviroment"
+ "-u, --update              Update Rhel 6,7,8 repos"
+ "-r, --register
