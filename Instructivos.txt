@@ -1,12 +1,17 @@
-Creare the directory /root/repodman
-Put on it the script repodman.sh
-Execute ./repodman.sh
-1- registre
-2- initialization
-3- update
+Instalation:
+Create de directory "/root/repodman" with the file repodman.sh inside
+Follow the instrucion in repodman.sh -h
+Steps
+1- Register in RHN and redhat.io
+repodman.sh -r
+2- Initialize enviroment
+repodman.sh -i
+3- Update Repos
+repodman -u
 
 
- "-h, --help                Show brief help"
- "-i, --initialization      Initialize enviroment"
- "-u, --update              Update Rhel 6,7,8 repos"
- "-r, --register
+Repodman Help:
+      "-h, --help                Show brief help"
+      "-i, --initialization      Initialize enviroment"
+      "-u, --update              Update Rhel 6,7,8 repos"
+      "-r, --register            Register system in RHN podmans"
